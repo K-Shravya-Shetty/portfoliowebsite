@@ -41,14 +41,13 @@
       .firstsection{
         display: flex;
         justify-content: space-around;
-        margin:80px 0;
+        align-items: center;
       }
       .firstsection >div{
         width:30%;
       }
       .leftsection{
         font-size: 1.5rem;
-        margin: 30px 0;
       }
       .rightsection img{
         width:80%;
@@ -65,11 +64,11 @@
         <div class="left">K.Shravya Shetty</div>
         <div class="right">
           <ul>
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>SERVICES</li>
-            <li>PROJECTS</li>
-            <li>CONTACT ME</li>
+            <a><li>HOME</li></a>
+            <a><li>ABOUT</li></a>
+            <a><li>SERVICES</li></a>
+            <a><li>PROJECTS</li></a>
+            <a><li>CONTACT ME</li></a>
           </ul>
         </div>
       </nav>
@@ -77,7 +76,8 @@
     <main>
       <section class="firstsection">
         <div class="leftsection">Hi, My name is <span class="purple">K.Shravya Shetty</span>
-          <div>I am  a Computer Science Engineering Student</div>
+          <div>I am</div>
+          <div>Computer Science Engineering Student</div>
         </div>
         <div class="rightsection">
           <img src="bg.webp" alt="developerpng">
