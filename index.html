@@ -40,7 +40,8 @@
         color:white;
       }
       nav ul li a:hover{
-        color:rgb(134, 134, 230)
+        color:rgb(134, 134, 230);
+        font-size: 1.2rem;
       }
       .left{
         font-size: 1.5rem;
@@ -85,11 +86,19 @@
         <div class="leftsection">Hi, My name is <span class="purple">K.Shravya Shetty</span>
           <div>I am</div>
           <div>Computer Science Engineering Student</div>
+          <span id="element"></span>
         </div>
         <div class="rightsection">
           <img src="bg.webp" alt="developerpng">
         </div>
       </section>
     </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['I am','Passionate', '&amp; diligent'],
+        typeSpeed: 50,
+      });
+    </script>
   </body>
 </html>
