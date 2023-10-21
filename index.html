@@ -49,6 +49,10 @@
         height:1.2px;
         margin:40px 84px;
       }
+      a{
+        text-decoration: none;
+        color:white;
+      }
       .left{
         font-size: 1.5rem;
       }
@@ -63,6 +67,15 @@
       }
       .leftsection{
         font-size: 1.5rem;
+      }
+      .leftsection .btn{
+        padding:12px ;
+        color: white;
+        background-color: rgb(5, 5, 69) ;
+        border: 2px solid;
+        border-radius: 50px;
+        font-size: 15px;
+        cursor: pointer;
       }
       .rightsection img{
         width:80%;
@@ -102,6 +115,7 @@
       .footer{
         display: flex;
         padding: 23px 122px;
+        justify-content: space-between;
       }
     </style>
   </head>
@@ -111,11 +125,11 @@
         <div class="left">K.Shravya Shetty</div>
         <div class="right">
           <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">SERVICES</a></li>
-            <li><a href="">PROJECTS</a></li>
-            <li><a href="">CONTACT ME</a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="contactme.html">CONTACT ME</a></li>
           </ul>
         </div>
       </nav>
@@ -125,6 +139,9 @@
         <div class="leftsection">Hi, My name is <span class="purple">K.Shravya Shetty</span>
           <div>I am</div>
           <span id="element"></span>
+          <div class="buttons">
+            <button class="btn"><a href="K.Shravya Shetty (1).pdf">My resume</a></button>
+          </div>
         </div>
         <div class="rightsection">
           <img src="bg.webp" alt="developerpng">
